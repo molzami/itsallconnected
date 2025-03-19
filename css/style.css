@@ -1,0 +1,559 @@
+/* ==========================================================
+		Default Values:
+		Font Family - Roboto
+		Steel Grey	: #41464b	(footer background)		
+		Blue Bayoux	: #64707b	(Paragraphs)
+		White		: #fff		(text with black background)
+		black		: #000		(menu bars, quotes)
+		blue		: #00F (underlines, button, Icons, spacial text)
+	light yellow    : #fff8dc (alt background, footer text)
+		Cyan        : #0ff (nav hoover)
+=============================================================*/
+
+/* general sectons */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+
+}
+
+h3 {
+	color: #000;
+	font-style: oblique;
+	text-transform: uppercase;
+}
+
+p {
+	color: #000;
+	font-size: 16px;
+	font-weight: 300;
+
+}
+.tag-line{
+	text-align: center;
+	color: #00F;
+	font-weight: 600;
+}
+.tagline {
+    color: #fff8dc;
+	font-size: 18pt;
+	font-weight: 600;
+}
+#sect-divider {
+	width: 100%;
+	height: 200px;
+}
+
+/* ========================================================== 
+			Parallax *generic*
+========================================================== */
+
+.bg-parallax {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+
+
+/* ========================================================== 
+			Buttons *generic*
+========================================================== */
+
+.btn-general {
+	border-width: 2px;
+	border-radius: 0;
+	padding: 12px 26px 12px 26px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+
+.btn-black {
+	background-color: #41464b;
+	border-color: #000;
+	color: #fff;
+
+}
+
+.btn-black:hover,
+.btn-black:focus {
+	background-color: transparent;
+	color: #000;
+}
+
+.btn-white {
+	border-color: #fff;
+	color: #fff;
+
+}
+
+.btn-white:hover,
+.btn-white:focus {
+	background-color: #fff;
+	color: #41464b;
+
+}
+.btn-blue {
+	border-color: #00f;
+	color: #00f;
+
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+	background-color: #64707b;
+	color: #fff;
+
+}
+
+
+.btn-yellow {
+	border-color: #fff8dc;
+	color: #fff8dc;
+
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+	background-color: #fff8dc;
+	color: #000;
+
+}
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
+/* ========================================================== 
+			Animation *generic*
+========================================================== */
+#home-cover,
+#home-heading,
+#home-subhead,
+#home-btn {
+	animation-duration: .5s;
+}
+
+#home-cover {
+	animation-delay: .1s;
+}
+
+#home-heading, #home-subhead {
+	animation-delay: .5s;
+}
+
+#home-btn {
+	animation-delay: .8s;
+}
+
+/* ========================================================== 
+			Home Section
+========================================================== */
+
+#home {
+	height: 100%;
+}
+
+#home-cover {
+	height: 100%;
+	margin-bottom: 60;
+	background-image: url("../img/home.jpg");
+}
+
+#home-content-box {
+	width: 100%;
+	height: 100%;
+	display: table;
+
+}
+
+#home-content-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#home-heading h3 {
+	color: #00F;
+	font-size: 40pt;
+	font-weight: 900;
+	font-style:oblique;
+	margin: 100px 0 0 0;
+ 
+}
+#home-heading h2 {
+	color: #000;
+	font-size: 30pt;
+	font-weight: 500;
+	margin: 0 0 100px 0;
+ 
+}
+#home-tagline{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: #fff8dc;
+} 
+
+#home-tagline p{
+    color: #fff8dc;
+	font-size: 18pt;
+	font-weight: 600;
+}
+
+/* ========================================================== 
+		          About
+========================================================== */
+#about-content-box {
+	float: left;
+	height: 700px;
+}
+.about-outer{
+	padding:220px 0 100px 0;
+}
+#about-content-box-outer {
+	width: 100%;
+	height: 100; 
+	display: table;
+}
+#about-content-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+#about .content-title h3 {
+	text-align: left;
+}
+#about .content-title-underline{
+	margin: 0 0px 30px 0;
+}
+#about-desc p {
+	margin-bottom: 30px;
+}
+#about-bg-diagnal {
+    width: 60%;
+    height: 700px;
+    float: right;
+    background-image: url('../img/about.jpg');
+    border-right: 200px solid #FFF;
+	border-left: 200px solid #FFF;
+    border-bottom: 700px solid transparent;
+}
+
+/* ========================================================== 
+			Services & Work Sections
+========================================================== */
+.web-content-box {
+	padding: 60px 0 100px 0;
+
+}
+
+.content-box{
+	padding: 100px 0 100px 0;
+	background-color: #fff8dc;
+}
+.content-title h3 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 0 30px 0;
+
+}
+
+.content-title-underline {
+	width: 50px;
+	height: 3px;
+	background-color: #00F;
+	margin: 0 auto 30px auto;
+
+}
+
+.service-item {
+	padding: 20px 0 20px 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.service-item-icon i {
+	color: #0FF;
+	float: left;
+	Padding: 0,15px,15px,15px;
+	margin-right: 25px;
+	width: 75px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+}
+.service-item-icon-2 i {
+	color: #00F;
+	float: left;
+	Padding: 0,15px,15px,15px;
+	margin-right: 25px;
+	width: 75px;
+	height: 200px;
+	text-align: center;
+	vertical-align: middle;
+}
+/*
+.service-item:hover .service-item-icon i {
+	color: #fff;
+	background-color: #00FFFF;
+
+}
+*/
+.service-item-title h3 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+
+}
+
+.service-iten-desc p {
+	margin: 0;
+	padding-left: 85px;
+
+}
+/*#service-summary p {
+	text-align: center;
+	color: #00F;
+	font-weight: 400;
+}*/
+
+/* ========================================================== 
+		          Tutoring - from About
+========================================================== */
+
+.tutor-outer {
+	background-color: #fff8dc;
+	border-top: 120px solid transparent;
+}
+#tutor-content-box {
+	float: Right;
+	height: 700px;
+	margin-bottom: 80px;
+}
+
+#tutor-bg-diagnal {
+    width: 60%;
+    height: 700px;
+    float: left;
+    background-image: url('../img/tutor.jpg');
+    border-right: 200px solid #fff8dc;
+	border-left: 200px solid #fff8dc;
+    border-top: 700px solid transparent;
+	
+}
+#tutoring-list ul li h2{
+	font-size: 24px;
+}
+#tutoring-list ul li{
+	font-size: 24px;
+}
+.content-subtitle p {
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	margin: 0 0 30px 0;
+
+}
+/* ========================================================== 
+			Navigation
+========================================================== */
+.navbar {
+	padding: 20px 0;
+	-webkit-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+.itsac-top-nav {
+	background: rgba(0, 0, 0, 0.5);
+	padding: 7px 0; 
+}
+.itsac-nav-wrapper {
+	padding: 0 85px;
+}
+.navbar-nav {
+	float: right;	
+}
+.navbar-nav>li>a {
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+	background: none;
+	text-decoration: overline underline;
+    text-decoration-color: #ff0;
+}
+.navbar-toggle {
+	background: rgba(0,0,0,0.1);
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-collapse {
+    max-height: none !important;
+}
+.itsac-top-nav ul.navbar-nav>li.active>a {
+	text-decoration: overline underline;
+	text-decoration-color: #0ff;
+}
+/*====================================================
+                       CONTACT
+======================================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 180px;
+    border-top: 5px solid rgba(0, 0, 0);
+}
+.contact-row{
+	padding-bottom: 100px;
+}
+
+#contact-left h3{
+    color: #fff8dc;
+    font-size: 24px;
+    font-weight: 500;
+}
+#contact-right h3{
+	 color: #fff8dc;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+#contact-left p {
+    color: #fff8dc;
+    margin-bottom: 30px;
+}
+#contact-right p {
+    color: #fff8dc;
+    margin-top: 60px;
+}
+
+#contact-info {
+    background-color: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+span.gc-cs-link{
+    color: #fff8dc;
+}
+
+address {
+    color: #fff8dc;
+}
+address strong { font-size: 16px; }
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+#phone-fax-email a {
+     color: #fff8dc;
+}
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff8dc;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
+    color: #fff8dc;
+}
+/*====================================================
+                       SOCIAL
+======================================================*/
+
+.social-list {
+    padding-left: 0;
+}
+
+.social-list li {
+    list-style: none;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    margin-right: 6px;
+    margin-top: 10px;
+}
+
+.social-icon i {
+    font-size: 17px;
+}
+
+.icon-gray i {
+    color: #64707b;
+}
+
+.icon-white i {
+    color: #fff;
+}
+
+.social-icon i:hover {
+    color: #34c6d3;
+}
+
+
+
+/*====================================================
+                       FOOTER
+======================================================*/
+
+#footer-bottom {
+    background-color: rgba(0, 0, 0);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+
+#footer-copyrights p {
+    margin: 0;
+    color: #fff;
+}
+
+#footer-menu {
+    float: left;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    text-decoration: overline underline;
+	text-decoration-color: #0f0;
+}
